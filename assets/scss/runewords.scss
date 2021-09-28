@@ -1,0 +1,105 @@
+.runeword-filter {
+    fieldset {
+        padding: $spacing;
+        background-color: rgba(black, .75);
+        border: 0;
+
+        + fieldset {
+            margin-top: $spacing;
+        }
+    }
+}
+
+.runewords-list {
+    user-select: none;
+    margin-top: $spacing;
+}
+
+.runeword-list details {
+    padding: $spacing;
+}
+
+.runewords-list summary {
+    padding: 0 $spacing;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.runewords-list summary h2 {
+    font-size: inherit;
+    display: inline-block;
+}
+
+.runewords-list > article {
+    display: grid;
+    gap: $spacing;
+    padding: $spacing 0;
+
+    @media (min-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.runeword {
+    text-align: center;
+    background-color: rgba(black, .8);
+
+    user-select: initial;
+
+    h3,
+    .stats {
+        padding: $spacing;
+    }
+
+    .runes {
+        padding: $spacing * .5;
+        background-color: rgba(white, .02);
+    }
+
+    .rune {
+        display: inline-block;
+        margin: $spacing * .5;
+        cursor: inherit;
+    }
+
+    .stats {
+        font-size: .8em;
+    }
+}
+
+.stats ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.stats-item + .stats-item {
+    margin-top: $spacing;
+}
+
+.stats-item > span {
+    color: lightblue;
+    font-size: 1.5em;
+    font-family: Exocet;
+}
+
+.stat-colors-enabled {
+    .stat.stat-default { color: darkgray; }
+    .stat.stat-resistance { color: darkseagreen; }
+    .stat.stat-skill { color: dodgerblue; }
+    .stat.stat-aura { color: dodgerblue; }
+    .stat.stat-charges { color: dodgerblue; }
+    .stat.stat-stats { color: lightgreen; }
+    .stat.stat-increased_attack_speed { color: indianred; }
+    .stat.stat-increased_block_chance { color: cyan; }
+    .stat.stat-faster_hit_recovery { color: cyan; }
+    .stat.stat-faster_block_rate { color: cyan; }
+    .stat.stat-faster_run_walk { color: cyan; }
+    .stat.stat-faster_cast_rate { color: cyan; }
+    .stat.stat-attack_rating { color: indianred; }
+    .stat.stat-defence { color: mediumseagreen; }
+    .stat.stat-damage { color: indianred; }
+    .stat.stat-magic_find { color: lightblue; }
+    .stat.stat-gold_find { color: gold; }
+    .stat.stat-special { color: darkorange; }
+}

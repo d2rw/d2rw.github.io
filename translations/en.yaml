@@ -1,0 +1,25 @@
+item:
+    shield: "Shields"
+    shield_paladin: "Paladin Shields"
+    clubs: "Clubs"
+    hammer: "Hammers"
+    mace: "Maces"
+    scepter: "Scepters"
+    sword: "Swords"
+    stave: "Staves"
+    body_armor: "Body Armors"
+    helm: "Helms"
+    melee: "Melee Weapons"
+    missile: "Missile Weapons"
+    weapon: "Weapons"
+    axe: "Axes"
+    wand: "Wands"
+    claw: "Claws"
+    polearm: "Polearms"
+
+sockets:
+    0: "Sockets"
+    1: "Socket"
+    2: "Sockets"
+
+item_info: 'See introduction at <a href="http://classic.battle.net/diablo2exp/items/runewords.shtml" target="_blank">http://classic.battle.net/diablo2exp/items/runewords.shtml</a> for detailed information on how to use runewords. Check, check and DOUBLE check before making a runeword. For example maces are not all mace class weapons, but only the Mace, Morning Star, Flail, and Exceptional/Elite versions are.'

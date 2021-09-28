@@ -1,0 +1,127 @@
+$spacing: 1rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+@font-face {
+	font-family: "Exocet";
+
+	src: url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.eot"); /* IE9*/
+	src: url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.woff2") format("woff2"), /* chrome、firefox */
+         url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.woff") format("woff"), /* chrome、firefox */
+         url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url("~@Asset/font/e329334bdcba54d5a86210f994c23ecc.svg#Exocet Reaper Medium Regular") format("svg"); /* iOS 4.1- */
+}
+
+*::before,
+*::after,
+* {
+	user-select: inherit;
+	box-sizing: border-box;
+	outline: 0;
+	color: inherit;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
+	font-family: Comfortaa, sans-serif;
+
+	color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Exocet, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+html {
+	background: #333;
+	background-image: url('~../../assets/images/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	overflow-y: scroll;
+}
+
+small {
+	font-size: .65em;
+}
+
+.layout-main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+@import 'layout';
+@import 'button';
+@import 'rune';
+@import 'runewords';
+@import 'gem';
+
+.runeword-name {
+}
+
+.runeword-item {
+	display: block;
+	color: lightblue;
+}
+
+.runeword-item span + span::before {
+	content: '/';
+}
+
+input,
+select {
+	border-radius: .25em;
+	display: inline-block;
+	background-color: rgba(black, 1);
+	border: thin solid rgba(white, .1);
+	padding: $spacing * .5;
+	color: inherit;
+	font: inherit;
+}
+
+input[type="number"] {
+	width: 5em;
+}
+
+option {
+	background-color: black;
+	color: inherit;
+}
+
+label.checkbox {
+	display: block;
+}

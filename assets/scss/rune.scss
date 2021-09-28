@@ -1,0 +1,35 @@
+.stash .runes {
+    display: grid;
+    gap: $spacing;
+    grid-template-columns:  repeat(auto-fill, minmax(5em, 1fr));
+}
+
+.rune {
+    box-shadow: 0 0 $spacing * 4 rgba(black, 1);
+    background-color: rgba(black, .75);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    flex: 1 1 10rem;
+    text-transform: uppercase;
+}
+
+.rune-image {
+    padding: .1em;
+}
+
+.rune-caption {
+    font-weight: bold;
+    font-family: Exocet, Comfortaa, sans-serif;
+    padding: .5em;
+    white-space: nowrap;
+}
+
+.rune-amount {
+    font-size: inherit;
+    color: indianred;
+}
+
+.rune.active .rune-amount {
+    color: lightgreen;
+}
