@@ -16,7 +16,7 @@ export default new Runeword(
         new Stat(StatType.Damage, "+320-380% Damage To Demons (varies)"),
         new Stat(StatType.Damage, "+280% Damage To Undead"),
         new Stat(StatType.Damage, "+75 Poison Damage Over 5 Seconds"),
-        new Stat(StatType.Default, "7% Life Stolen Per Hit"),
+        new Stat(StatType.Defense, "7% Life Stolen Per Hit"),
         new Stat(StatType.Special, "Prevent Monster Heal"),
         new Stat(StatType.Stats, "+5-10 To All Attributes (varies)"),
         new Stat(StatType.Defense, "+2 To Mana After Each Kill"),

@@ -18,7 +18,7 @@ export default new Runeword(
         new Stat(StatType.Damage, "+350% Enhanced Damage"),
         new Stat(StatType.Special, "Ignore Target's Defense"),
         new Stat(StatType.Damage, "Adds 100-180 Magic Damage"),
-        new Stat(StatType.Default, "7% Mana Stolen Per Hit"),
+        new Stat(StatType.Defense, "7% Mana Stolen Per Hit"),
         new Stat(StatType.Special, "20% Chance Of Crushing Blow"),
         new Stat(StatType.Special, "20% Deadly Strike"),
         new Stat(StatType.Special, "Prevent Monster Heal"),

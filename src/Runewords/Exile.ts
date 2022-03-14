@@ -22,7 +22,7 @@ export default new Runeword(
         new Stat(StatType.Resistance, "+5% To Maximum Cold Resist"),
         new Stat(StatType.Resistance, "+5% To Maximum Fire Resist"),
         new Stat(StatType.MagicFind, "25% Better Chance Of Getting Magic Items"),
-        new Stat(StatType.Default, "Repairs 1 Durability in 4 Seconds"),
+        new Stat(StatType.Defense, "Repairs 1 Durability in 4 Seconds"),
     ],
     Character.Paladin
 );
